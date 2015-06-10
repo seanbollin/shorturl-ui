@@ -8,12 +8,18 @@ h1 {
 }
 
 #content {
-	width: 500px;
+	width: 600px;
 	margin: auto;
 	margin-top: 100px;
 	text-align: center;
 }
 
-input {
+input.to-short {
 	width: 300px;
+}
+
+.shorturl {
+	color: #FF69B4;
+	font-weight: bold;
+	font-size: 20px;
 }
