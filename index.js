@@ -16,7 +16,7 @@ app.post('/shorturl', function (req, res) {
 			json: {
 				url: req.body.url
 			}
-	}, function(error, response, body){
+	}, function(error, response, body) {
 	    if(error) {
 	        console.log(error);
 					res.send(error);
@@ -27,7 +27,7 @@ app.post('/shorturl', function (req, res) {
 	});
 });
 
-var server = app.listen(8080, function () {
+var server = app.listen(8080, function() {
 
   var host = server.address().address;
   var port = server.address().port;
